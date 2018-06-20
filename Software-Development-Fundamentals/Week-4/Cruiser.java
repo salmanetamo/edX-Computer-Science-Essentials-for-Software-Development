@@ -1,0 +1,15 @@
+
+public class Cruiser extends Ship {
+
+	public Cruiser() {
+		super();
+		this.setLength(6);
+		this.setHit(new boolean[6]);
+	}
+
+	@Override
+	public String getShipType() {
+		return "Cruiser";
+	}
+
+}
